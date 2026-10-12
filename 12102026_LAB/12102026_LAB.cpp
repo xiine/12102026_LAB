@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // borys.kurtiak@student.put.poznan.pl
     // Zadanie 1
     /*for (int i = 5; i <= 7; i++) {
 		cout << i << endl;
@@ -62,7 +63,7 @@ int main()
     }*/
 
     // Zadanie 6
-    int fahr, celsius;
+    /*int fahr, celsius;
     int start, limit, krok;
 
     cin >> limit >> krok;
@@ -73,6 +74,106 @@ int main()
     for (; fahr <= limit; fahr += krok) {
         celsius = 5 * (fahr - 32) / 9;
         cout << fahr << "\t" << celsius << endl;
+    }*/
+
+    // Zadanie 7
+    /*int n = 0;
+    for (int i = 0; i < 10; i++) {
+		cout << "Podaj liczbe: ";
+        cin >> n;
+        if (n > 0) {
+            cout << n << endl;
+        }
+    }*/
+
+    // Zadanie 8
+    /*for (int i = 0; i <= 100; i++) {
+        if (i % 2 == 0) {
+			cout << i << endl;
+        }
+    }*/
+
+    // Zadanie 9
+    /*int n;
+	cout << "Podaj liczbe n: ";
+    cin >> n;
+    for (int i = 0; i <= 100; i++) {
+        if (i % n == 0) {
+			cout << i << endl;
+        }
+    }*/
+
+    // Zadanie 10
+    /*int sum = 0;
+    int n;
+
+	cout << "Podaj liczbe n: ";
+    cin >> n;
+    for (int i = 0; i <= 100; i++) {
+        if (i % n == 0) {
+            sum++;
+        }
     }
+	cout << "Suma liczb podzielnych przez " << n << " wynosi: " << sum << endl;*/
+
+    // Zadanie 11
+    /*int a, b;
+    cout << "Podaj liczbe a: ";
+	cin >> a;
+	cout << "Podaj liczbe b: ";
+	cin >> b;
+
+    if (a < b) {
+        while (a < b) {
+            if (a % 3 == 0) {
+				cout << a << endl;
+            }
+            a++;
+        }
+    }
+    else {
+        while (b < a) {
+            if (b % 3 == 0) {
+                cout << b << endl;
+            }
+            b++;
+        }
+    }*/
+
+    // Zadanie 12
+    /*int n, sum = 0;
+	cout << "Podaj liczbe n: ";
+    cin >> n;
+    for (int i = 1; i <= n; i++) {
+		sum += i;
+    }
+	cout << "Œrednia arytmetyczna od 1 do " << n << " wynosi: " << sum/n << endl;*/
+
+    // Zadanie 13
+    /*for (int i = 100; i >= 0; i--) {
+		cout << i << endl;
+    }*/
+
+	// Zadanie 14
+    /*int a, b, c;
+	cout << "Podaj liczbe a: ";
+	cin >> a;
+	cout << "Podaj liczbe b: ";
+    cin >> b;
+	cout << "Podaj liczbe c: ";
+	cin >> c;
+
+    if (a < b && a < c) {
+		cout << "Najmniejsza liczba to: " << a << endl;
+    }
+    if (b < a && b < c) {
+		cout << "Najmniejsza liczba to: " << b << endl;
+    }
+
+    if(c < a && c < b) {
+		cout << "Najmniejsza liczba to: " << c << endl;
+    }*/
+
+    // Zadanie 15
     return 0;
 }
